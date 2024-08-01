@@ -1,14 +1,16 @@
 import classNames from "classnames";
 import { Inter } from "next/font/google";
 import { useState } from "react";
-import ButtonNavegation from "./components/buttonNavegation";
-import Header from "./components/header";
-import History from "./components/history";
-import ImageSlider from "./components/imageSlider";
-import MainImage from "./components/mainImage";
-import RightThingsBar from "./components/rightThingsBar";
-import SearchBar from "./components/searchBar";
-import ShoppingCarBar from "./components/shoppingCarBar";
+import Footer from "../components/footer";
+import Header from "../components/header";
+import History from "../components/history";
+import ItemsToSell from "../components/itemsToSell";
+import LastItems from "../components/lastItems";
+import MainImage from "../components/mainImage";
+import RightThingsBar from "../components/rightThingsBar";
+import SearchBar from "../components/searchBar";
+import ShoppingCarBar from "../components/shoppingCarBar";
+import UseCarousel from "../components/useCarousel";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
@@ -16,26 +18,29 @@ export default function Home() {
   const [rightBarOpen, setRightBarOpen] = useState(false);
   const [shoppingOpen, setShoppingOpen] = useState(false); 
   const mainStyle = classNames(
-    "bg-white overflow-x-hidden relative h-screen", {"overflow-hidden" : rightBarOpen || shoppingOpen}
+    "bg-[#e9eae4] overflow-x-hidden relative h-screen", {"overflow-hidden" : rightBarOpen || shoppingOpen}
   )
-
   return (
       <main className={mainStyle}>
           <Header open={setSearchOpen} openRight={setRightBarOpen} openShopping={setShoppingOpen}></Header>
           <SearchBar isOpen={searchOpen} open={setSearchOpen}></SearchBar>
           <RightThingsBar isOpenRight={rightBarOpen} openRight={setRightBarOpen}></RightThingsBar>
           <ShoppingCarBar isOpenShopping={shoppingOpen} openShopping={setShoppingOpen}></ShoppingCarBar>
-        <section className="w-full flex flex-col items-center">
+        <section className="w-full flex flex-col items-center mb-4">
           <MainImage></MainImage>
-            <img className="w-[90%] mt-24" src="https://cdn.shopify.com/s/files/1/0515/8453/2641/files/stgermain.png"></img>
           <History></History>
+          <a className="flex items-center justify-center border-solid border-[1px] border-[#DB2217] w-[95%] h-[45px] text-[15px] text-[#DB2217]" href="./ourHistory">CONOCE NUESTROS LOCALES</a>
         </section>
-        <section className="relative w-full h-[300px]">
-          <ImageSlider srcImage="https://saintgermain.uy/cdn/shop/files/pocitos1_1400x.jpg?v=1668002764" nameShop="BOULANGERIE" locationShop="POCITOS"></ImageSlider>
-          <ImageSlider srcImage="https://infonegocios.info/content/images/2022/07/21/129521/conversions/800x453-saint-germain-cafe-parisien-2-medium-size.jpg" nameShop="CAFE PARISIEN" locationShop="CARRASCO"></ImageSlider>
-          <ImageSlider srcImage="https://saintgermain.uy/cdn/shop/files/divino-home_1400x.jpg?v=1667568207" nameShop="CAFE BISTROT" locationShop="DIVINO CENTRAL"></ImageSlider>
-          <ButtonNavegation></ButtonNavegation>
+        <section className="relative max-w-[400px] h-[300px]">
+          <UseCarousel></UseCarousel>
         </section>
+        <section className="w-full min-h-[400px] mt-8">
+          <ItemsToSell verificating={false}></ItemsToSell>
+        </section>
+        <section>
+            <LastItems></LastItems>
+        </section>
+        <Footer></Footer>
     </main>
   );
 }
