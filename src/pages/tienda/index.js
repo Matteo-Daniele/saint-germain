@@ -1,11 +1,11 @@
 import classNames from "classnames";
 import { useState } from "react";
-import Footer from "../components/footer";
-import Header from "../components/header";
-import ItemsToSell from "../components/itemsToSell";
-import RightThingsBar from "../components/rightThingsBar";
-import SearchBar from "../components/searchBar";
-import ShoppingCarBar from "../components/shoppingCarBar";
+import Footer from "../../components/footer";
+import Header from "../../components/header";
+import ItemsToSell from "../../components/itemsToSell";
+import RightThingsBar from "../../components/rightThingsBar";
+import SearchBar from "../../components/searchBar";
+import ShoppingCarBar from "../../components/shoppingCarBar";
 
 export default function Tienda(){
     const [searchOpen, setSearchOpen] = useState(false);
