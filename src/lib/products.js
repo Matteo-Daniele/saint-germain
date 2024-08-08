@@ -7,7 +7,7 @@ const croissantAlmendraViennoiseries = {
         'Por encima le agregamos más crema de almendras y almendras laminadas.',
         'Muy súper extra recomendable.'
     ],
-    price: '$140,00',
+    price: 140,
     weight: '130g aprox.',
     link: 'https://saintgermain.uy/cdn/shop/products/Croissantalmendra2_360x.jpg?v=1611928431',
 };
@@ -19,7 +19,7 @@ const croissantQuesoGruyereViennoiseries = {
         'Con salsa bechamel para darle un toque más cremoso.',
         'Para amantes del queso.'
     ],
-    price: '$150,00',
+    price: 150,
     weight: '135g aprox.',
     link: 'https://saintgermain.uy/cdn/shop/products/croissantqueso_360x.jpg?v=1611928775',
 };
@@ -30,7 +30,7 @@ const painAuChocolatViennoiseries = {
         'Tan clásico como el croissant, misma masa de hojaldre artesanal.',
         'Dos barras de chocolate para aumentar aún más su deliciosidad. Imperdible.'
     ],
-    price: '$105,00',
+    price: 105,
     weight: '70g aprox.',
     link: 'https://saintgermain.uy/cdn/shop/products/Painauchoclat_3762fcde-c27b-43f1-b589-4e554a6c5339_360x.jpg?v=1612474638',
 };
@@ -43,7 +43,7 @@ const croissantViennoiseries = {
         '100% manteca en nuestra exclusiva receta tradicional.',
         'Crocante por fuera, suave y mantecoso por dentro, todo delicioso. Perfecto solo o para rellenar.'
     ],
-    price: '$95,00',
+    price: 95,
     weight: '70g aprox.',
     link: 'https://saintgermain.uy/cdn/shop/products/Croissant3_360x.jpg?v=1611928816',
 };
@@ -54,7 +54,7 @@ const rollJamonGruyereViennoiseries = {
         'Roll de masa de hojaldre con mucho queso gruyere y cubos de delicioso jamón.',
         'Perfecto en cualquier momento del día.'
     ],
-    price: '$170,00',
+    price: 170,
     weight: '150g aprox.',
     link: 'https://saintgermain.uy/cdn/shop/products/Rolldejamonyqueso_360x.jpg?v=1611929133',
 };
@@ -66,7 +66,7 @@ const croissantBicolorNutellaViennoiseries = {
         'Relleno de deliciosa nutella preparada por nosotros mismos.',
         'Un clásico de la casa, para no perderse.'
     ],
-    price: '$160,00',
+    price: 160,
     weight: null,
     link: 'https://saintgermain.uy/cdn/shop/products/Bicolor_360x.jpg?v=1611928477',
 };
@@ -77,7 +77,7 @@ const painAuChocolatAlmendraViennoiseries = {
         'Pain au chocolat relleno con celestial crema de almendras y almíbar.',
         'Por encima le agregamos más crema de almendras y almendras laminadas.'
     ],
-    price: '$150,00',
+    price: 150,
     weight: '130g aprox.',
     link: 'https://saintgermain.uy/cdn/shop/products/Painchocoalmendra_360x.jpg?v=1612474958',
 };
@@ -88,7 +88,7 @@ const painSuisseViennoiseries = {
         'Masa de hojaldre con crema pastelera y chispas de chocolate.',
         'Combinación exquisita.'
     ],
-    price: '$130,00',
+    price: 130,
     weight: '130g aprox.',
     link: 'https://saintgermain.uy/cdn/shop/products/Painsuisse_360x.jpg?v=1611928999',
 };
@@ -99,7 +99,7 @@ const painAuxRaisinsViennoiseries = {
         'Espiral de finas capas de hojaldre con crema pastelera y pasas de uvas en cada una de sus vueltas.',
         'Horneado hasta lograr el dorado perfecto. Una verdadera delicia.'
     ],
-    price: '$130,00',
+    price: 130,
     weight: null,
     link: 'https://saintgermain.uy/cdn/shop/products/Painauxraisins_360x.jpg?v=1611928891',
 };
@@ -111,7 +111,7 @@ const briocheDulceDeLecheViennoiseries = {
         'Combinación única de la suavidad del brioche y la cremosidad y dulzura del dulce de leche.',
         'Contundencia y mucho mucho sabor.'
     ],
-    price: '$210,00',
+    price: 210,
     weight: null,
     link: ['https://saintgermain.uy/cdn/shop/products/BriocheDulcedeleche1_540x.jpg?v=1611928322', 'https://saintgermain.uy/cdn/shop/products/briochedulcedeleche2_540x.jpg?v=1611928335'],
 };
@@ -122,7 +122,7 @@ const briocheMousseChocolateViennoiseries = {
         'Brioche crujiente de mousse de chocolate belga.',
         'Todo suavidad. Y un montón de chocolatosidad.'
     ],
-    price: '$160,00',
+    price: 160,
     weight: null,
     link: ['https://saintgermain.uy/cdn/shop/products/MG_4672_360x.jpg?v=1624726974', 'https://saintgermain.uy/cdn/shop/products/MG_4699_360x.jpg?v=1624726974'],
 };
@@ -134,7 +134,7 @@ const kouignAmannViennoiseries = {
         'Esta especialidad de Bretagne consiste en masa de hojaldre con manteca y azúcar combinados con excepcional armonía y suavidad.',
         'El exterior caramelizado le da un toque crocante a tanta mantecosidad (sic?). Más que recomendable.'
     ],
-    price: '$180,00',
+    price: 180,
     weight: null,
     link: 'https://saintgermain.uy/cdn/shop/products/KouignAmann_360x.jpg?v=1611928860',
 };
@@ -145,7 +145,7 @@ const croissantBicolorFrutosRojosViennoiseries = {
         'Procuramos un sabor frutal con el equilibrio justo entre dulzura y acidez.',
         'Con toda la generosidad de relleno que el croissant muy gentilmente nos permite.'
     ],
-    price: '$160,00',
+    price: 160,
     weight: null,
     link: ['https://saintgermain.uy/cdn/shop/products/MG_1947_360x.jpg?v=1625924569', 'https://saintgermain.uy/cdn/shop/products/MG_1971_360x.jpg?v=1625924569'],
 };
@@ -157,7 +157,7 @@ const briocheSucreeViennoiseries = {
         'Es mantecoso, esponjoso y azucarado.',
         'Perfecto para grandes y chicos.'
     ],
-    price: '$140,00',
+    price: 140,
     weight: null,
     link: 'https://saintgermain.uy/cdn/shop/products/BriocheSucree_360x.jpg?v=1611928400',
 };
@@ -168,7 +168,7 @@ const briocheCanelaFrostingLimonViennoiseries = {
         'Brioche suave y esponjoso, endulzado con azúcar mascabo.',
         'Humedecido con almíbar de canela y coronado con delicioso frosting casero de limón.'
     ],
-    price: '$170,00',
+    price: 170,
     weight: null,
     link: ['https://saintgermain.uy/cdn/shop/products/MG_5391_360x.jpg?v=1669569830', 'https://saintgermain.uy/cdn/shop/products/MG_5405_360x.jpg?v=1669569830'],
 };
@@ -179,7 +179,7 @@ const cuboPistachoViennoiseries = {
         'Pan brioche esponjoso relleno de crema de pistacho y con topping de pistachos caramelizados.',
         'Un toque crujiente por fuera y una suavidad deliciosa por dentro.'
     ],
-    price: '$180,00',
+    price: 180,
     weight: null,
     link: ['https://saintgermain.uy/cdn/shop/files/MG_1747_e3bb22ff-5021-4efd-8deb-db664123a18a_360x.jpg?v=1718714827', 'https://saintgermain.uy/cdn/shop/files/MG_1763_0573f20c-60bb-4755-8e37-5c41146c3e95_360x.jpg?v=1718714743'],
 };
@@ -193,9 +193,9 @@ const baguetteGruyereHierbasPanes = {
         'Baguette con generosos 50g de delicioso queso gruyere.',
         'Hierbas de Provence y un toque de aceite de oliva para hacerla aún más irresistible.'
     ],
-    price: '$170,00',
+    price: 170,
     weight: null,
-    link: 'https://saintgermain.uy/cdn/shop/products/Pandecampo_360x.jpg?v=1611929034',
+    link: 'https://saintgermain.uy/cdn/shop/products/BaguetteQueso_540x.jpg?v=1611928254',
 };
 
 const baguetteOlivesPanes = {
@@ -204,7 +204,7 @@ const baguetteOlivesPanes = {
         'Baguette tradition con mix de olivas verdes y negras',
         'Agregamos un toque de aceite de oliva para darle un sabor y textura unicos. Un clasico'
     ],
-    price: '$130,00',
+    price: 130,
     weight: null,
     link: 'https://saintgermain.uy/cdn/shop/products/IMG_1452_1_4745e660-4416-47be-99cb-1757c2d8e1ea_360x.jpg?v=1614210153',
 };
@@ -215,7 +215,7 @@ const baguetteTraditionPanes = {
         'Con el sabor auténtico de nuestra exclusiva harina de Tradition francesa Grands Moulins de Paris y masa madre',
         'Gracias al horno con piso de piedra y cámara de vapor, tiene el "crunch" que toda baguette debe tener, con una miga suave y aireada.'
     ],
-    price: '$180,00',
+    price: 180,
     weight: '300g aprox',
     link: ['https://saintgermain.uy/cdn/shop/products/BAguettetradition_360x.jpg?v=1613947377', 'https://saintgermain.uy/cdn/shop/products/94A6168_540x.jpg?v=1613947859'],
 };
@@ -228,9 +228,9 @@ const panCampoPanes = {
         'Miga abundante, abierta y muy sabrosa. Un pan de autor.',
         'Perfecto para porcionar, congelar y tener pan siempre fresco'
     ],
-    price: '$290,00',
+    price: 290,
     weight: '800g aprox',
-    link: 'https://cdn.shopify.com/s/files/1/0274/7021/5902/products/01_Pan_Campagne.jpg?v=1625733898',
+    link: 'https://saintgermain.uy/cdn/shop/products/Pandecampo_360x.jpg?v=1611929034',
 };
 
 const bagguetteSemillasPanes = {
@@ -239,7 +239,7 @@ const bagguetteSemillasPanes = {
         'Nuestra receta de baguette tradition con un mix de semillas para darle un toque crocante, con todos los beneficios de las semillas.',
         'Una excelente alternativa a la baguette tradition.'
     ],
-    price: '$130,00',
+    price: 130,
     weight: null,
     link: 'https://saintgermain.uy/cdn/shop/products/IMG_1452_1_4745e660-4416-47be-99cb-1757c2d8e1ea_360x.jpg?v=1614210153',
 };
@@ -250,7 +250,7 @@ const panIntegralSemillasPanes = {
         'Pan integral con mezcla de semillas.',
         'Alto en fibra y nutrientes.'
     ],
-    price: '$210,00',
+    price: 210,
     weight: null,
     link: ['https://saintgermain.uy/cdn/shop/products/MG_2016_360x.jpg?v=1669570427', 'https://saintgermain.uy/cdn/shop/products/MG_2005_540x.jpg?v=1669570427', 'https://saintgermain.uy/cdn/shop/products/MG_2025_540x.jpg?v=1669570427'],
 };
@@ -260,7 +260,7 @@ const panCampagne = {
         'Pan integral con mezcla de semillas.',
         'Alto en fibra y nutrientes.'
     ],
-    price: '$180,00',
+    price: 180,
     weight: null,
     link: ['https://saintgermain.uy/cdn/shop/products/MG_2016_360x.jpg?v=1669570427', 'https://saintgermain.uy/cdn/shop/products/MG_2005_540x.jpg?v=1669570427', 'https://saintgermain.uy/cdn/shop/products/MG_2025_540x.jpg?v=1669570427'],
 };
@@ -270,7 +270,7 @@ const panIntegral = {
         'Harina de tradition francesa combinada con harina integral que le da ese toque rústico.',
         'Ideal para todas las comidas por su alto contenido de fibra y minerales.'
     ],
-    price: '$170,00',
+    price: 170,
     weight: null,
     link: 'https://saintgermain.uy/cdn/shop/products/PanIntegral_360x.jpg?v=1611929066',
 };
@@ -280,7 +280,7 @@ const panMolde = {
         'Suavidad esponjosa y sabor apenas dulce',
         'Ideal para tostadas, sándwich o cualquier antojo'
     ],
-    price: '$175,00',
+    price: 175,
     weight: null,
     link: ['https://saintgermain.uy/cdn/shop/products/MG_2028_360x.jpg?v=1669570637', 'https://saintgermain.uy/cdn/shop/products/MG_2028_360x.jpg?v=1669570637', 'https://saintgermain.uy/cdn/shop/products/MG_2040_360x.jpg?v=1669570638'],
 };
@@ -290,12 +290,12 @@ const panMarselles = {
         'Nuestra versión de este pan tradicional uruguayo incorpora algo de complejidad sin perder su sencillez, con la tradicional corteza de harina de maíz que le da el crunch característico .',
         'Regado con manteca aromática de sutil crema de ajo, pimienta negra, verdeo, parmesano y sal rosa en escamas componiendo una armonía de sabores que no te vas a querer perder'
     ],
-    price: '$170,00',
+    price: 170,
     weight: null,
     link: ['https://saintgermain.uy/cdn/shop/files/MG_9573_360x.jpg?v=1699442156', 'https://saintgermain.uy/cdn/shop/files/MG_9600_360x.jpg?v=1699442156', 'https://saintgermain.uy/cdn/shop/files/MG_9626_360x.jpg?v=1699442156', 'https://saintgermain.uy/cdn/shop/files/MG_9635_360x.jpg?v=1699442156'],
 };
 
-export const panes = [
+export let panes = [
     baguetteGruyereHierbasPanes,
     baguetteOlivesPanes,
     baguetteTraditionPanes,
@@ -316,7 +316,7 @@ const eclairChocoPatisserie = {
         'Pasta choux rellena de crema pastelera de chocolate.',
         'Cubierta con una ganache de chocolate oscuro.'
     ],
-    price: '$180,00',
+    price: 180,
     weight: null,
     link: 'https://saintgermain.uy/cdn/shop/products/1-EclairChocolate_540x.jpg?v=1612983569',
 };
@@ -327,7 +327,7 @@ const tartaletaLimonPatisserie = {
         'Masa sablée con crema de limón.',
         'Decorada con merengue italiano.'
     ],
-    price: '$170,00',
+    price: 170,
     weight: '100g aprox',
     link: 'https://saintgermain.uy/cdn/shop/products/TarteCitron_360x.jpg?v=1613158196',
 };
@@ -338,7 +338,7 @@ const chouxCaramelPatisserie = {
         'Pasta choux rellena de crema pastelera de caramelo.',
         'Cubierta con caramelo crujiente.'
     ],
-    price: '$280,00',
+    price: 280,
     weight: '100g aprox',
     link: 'https://saintgermain.uy/cdn/shop/products/mILLEFEUILLE2_360x.jpg?v=1613824780',
 };
@@ -349,7 +349,7 @@ const tartaletaFrutillaPatisserie = {
         'Masa sablée con crema pastelera y frutillas frescas.',
         'Decorada con gelatina de frutilla.'
     ],
-    price: '$1950,00',
+    price: 1950,
     weight: '650g aprox',
     link: ['https://saintgermain.uy/cdn/shop/products/MG_4539_360x.jpg?v=1625015895', 'https://saintgermain.uy/cdn/shop/products/MG_4557_360x.jpg?v=1625015895'],
 };
@@ -360,7 +360,7 @@ const milhojasVainillaPatisserie = {
         'Capas de hojaldre crujiente.',
         'Relleno de crema pastelera de vainilla.'
     ],
-    price: '$1400,00',
+    price: 1400,
     weight: null,
     link: ['https://saintgermain.uy/cdn/shop/products/IMG_8748_360x.jpg?v=1616018003', 'https://saintgermain.uy/cdn/shop/products/IMG_8764_360x.jpg?v=1616018003'],
 };
@@ -371,7 +371,7 @@ const tartaletaManzanaPatisserie = {
         'Masa sablée con compota de manzana.',
         'Decorada con láminas de manzana fresca.'
     ],
-    price: '$190,00',
+    price: 190,
     weight: '120g aprox',
     link: ['https://saintgermain.uy/cdn/shop/products/ParisBrest_360x.jpg?v=1613158166', 'https://saintgermain.uy/cdn/shop/products/Parisbrest2_360x.jpg?v=1613830736'],
 };
@@ -382,7 +382,7 @@ const chouxVainillaPatisserie = {
         'Pasta choux rellena de crema pastelera de vainilla.',
         'Cubierta con azúcar glas.'
     ],
-    price: '$160,00',
+    price: 160,
     weight: null,
     link: 'https://saintgermain.uy/cdn/shop/products/Snicker_360x.jpg?v=1613158136',
 };
@@ -393,7 +393,7 @@ const tartaletaFrutosRojosPatisserie = {
         'Masa sablée con crema de almendras y frutos rojos frescos.',
         'Decorada con azúcar glas.'
     ],
-    price: '$190,00',
+    price: 190,
     weight: '120g aprox',
     link: 'https://saintgermain.uy/cdn/shop/products/CheesecakeFrutosRojos_1_360x.jpg?v=1613158071',
 };
@@ -406,7 +406,7 @@ const quicheQuesoCabraAlmuerzos = {
         'Fina masa briseé con queso de cabra cremoso, tomates cherry y albahaca.',
         'Ideal para el almuerzo.'
     ],
-    price: '$290,00',
+    price: 290,
     weight: '230g aprox.',
     link: 'https://saintgermain.uy/cdn/shop/products/Quichequesodecabra_540x.jpg?v=1611929104',
 };
@@ -417,7 +417,7 @@ const quicheLorraineAlmuerzos = {
         'Fina masa briseé con panceta artesanal, crema, huevo y queso gruyere.',
         'Perfecto para el almuerzo o cualquier momento.'
     ],
-    price: '$290,00',
+    price: 290,
     weight: '230g aprox.',
     link: 'https://saintgermain.uy/cdn/shop/products/IMG_1382_1_540x.jpg?v=1614210507',
 };
@@ -428,7 +428,7 @@ const tartinePaltaAlmuerzos = {
         'Rebanada de pan de campo con palta, queso crema, tomate cherry y cebolla morada.',
         'Opción vegetariana fresca y deliciosa.'
     ],
-    price: '$390,00',
+    price: 390,
     weight: null,
     link: 'https://saintgermain.uy/cdn/shop/products/Tartinepaltayquesocrema_540x.jpg?v=1613157852',
 };
@@ -439,7 +439,7 @@ const tartineJamonCrudoAlmuerzos = {
         'Rebanada de pan de campo con queso crema, pesto, tomate cherry y jamón crudo español.',
         'Decorada con lascas de parmesano.'
     ],
-    price: '$430,00',
+    price: 430,
     weight: null,
     link: 'https://saintgermain.uy/cdn/shop/products/Tartinejamoncrudo_360x.jpg?v=1613157876',
 };
@@ -450,7 +450,7 @@ const sandwichEntrecoteAlmuerzos = {
         'Baguette tradition crujiente con salsa tártara, criolla ahumada, rabanito y mix de verdes.',
         'Con entrecot en finas rebanadas.'
     ],
-    price: '$400,00',
+    price: 400,
     weight: null,
     link: 'https://saintgermain.uy/cdn/shop/products/SandwichEntrecot_540x.jpg?v=1613157775',
 };
@@ -461,7 +461,7 @@ const croissantSalmonAlmuerzos = {
         'Croissant de manteca con salmón ahumado, queso crema y palta.',
         'Una exquisitez recomendable.'
     ],
-    price: '$440,00',
+    price: 440,
     weight: '200g aprox',
     link: 'https://saintgermain.uy/cdn/shop/products/CroissantSalmon_540x.jpg?v=1612983866',
 };
@@ -472,14 +472,14 @@ const sandwichBondiolaAlmuerzos = {
         'Baguette tradition de corteza crujiente con queso de cabra, pesto y rúcula.',
         'Con bondiola en finas fetas.'
     ],
-    price: '$400,00',
+    price: 400,
     weight: '180g aprox',
     link: 'https://saintgermain.uy/cdn/shop/products/Sandwichbondiola_540x.jpg?v=1612983910',
 };
 
 
 // Array de Almuerzos
-export const almuerzos = [
+export let almuerzos = [
     quicheQuesoCabraAlmuerzos,
     quicheLorraineAlmuerzos,
     tartinePaltaAlmuerzos,
@@ -490,7 +490,7 @@ export const almuerzos = [
 ];
 
 // Array de Viennoiseries
-export const viennoiseries = [
+export let viennoiseries = [
     croissantAlmendraViennoiseries,
     croissantQuesoGruyereViennoiseries,
     painAuChocolatViennoiseries,
@@ -510,7 +510,7 @@ export const viennoiseries = [
 ];
 
 // Array de Patisserie
-export const patisserie = [
+export let patisserie = [
     eclairChocoPatisserie,
     tartaletaLimonPatisserie,
     chouxCaramelPatisserie,
@@ -521,24 +521,9 @@ export const patisserie = [
     tartaletaFrutosRojosPatisserie
 ];
 
-///Prueba
- 
-const medialuna = {
-    name: 'medialuna',
-    description: 'rica',
-    photo: 'https://assets.elgourmet.com/wp-content/uploads/2011/09/shutterstock_1366373012-1024x683.jpg.webp',
-    price: 200,
-}
-const crossaint = {
-    name: 'crossaint',
-    description: 'the same shit that medialuna but with other form',
-    photo: 'https://www.paulinacocina.net/wp-content/uploads/2023/12/croissant-de-mantequilla-paulina-cocina-recetas-1200x675.jpg',
-    price: 210,
-}
-const bolaDeFraile = {
-    name: 'Bola de fraile',
-    description: 'the goat',
-    photo: 'https://img-global.cpcdn.com/recipes/recipes_14097_v1425641054_receta_foto_00014097-hzfa9c5gs8pgzzse8afo/680x482cq70/berlinesas-o-bolas-de-fraile-con-secreto-foto-principal.jpg',
-    price: 250,
-}
-export const products = [medialuna, crossaint, bolaDeFraile];
+export const products = {
+    viennoiseries, 
+    panes, 
+    patisserie, 
+    almuerzos
+};
