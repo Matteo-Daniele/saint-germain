@@ -31,7 +31,7 @@ export default function ItemsToSell({verificating}){
                     <img className={imageStyle} src={mainImageLink[0]}/>
                     <h3 className={textStyle}>VIENNOISERIES</h3>
                 </a>    
-                <a href={`../collectionTienda?mainImage=${mainImageLink[1]}&typeProduct=${textTypeProduct[1]}`} className={sonStyle}>
+                <a href="/tienda/panes" className={sonStyle}>
                     <div className="absolute w-full h-full bg-black bg-opacity-10 group-hover:bg-opacity-30"></div>
                     <div className="absolute bottom-0 w-full h-[50%] bg-gradient-to-t from-[#a1b5ff5e]"></div>
                     <img className={imageStyle} src={mainImageLink[1]}></img>
@@ -39,13 +39,13 @@ export default function ItemsToSell({verificating}){
                 </a>
             </div>
             <div className={fatherStyle}>
-                <a href={`../collectionTienda?mainImage=${mainImageLink[2]}&typeProduct=${textTypeProduct[2]}`} className={sonStyle}>
+                <a href="/tienda/patisserie" className={sonStyle}>
                     <div className="absolute w-full h-full bg-black bg-opacity-10 group-hover:bg-opacity-30"></div>
                     <div className="absolute bottom-0 w-full h-[50%] bg-gradient-to-t from-[#a1b5ff5e]"></div>
                     <img className={imageStyle} src={mainImageLink[2]}></img>
                     <h3 className={textStyle}>PATISSERIE</h3>
                 </a>
-                <a href={`../collectionTienda?mainImage=${mainImageLink[3]}&typeProduct=${textTypeProduct[3]}`} className={sonStyle}>
+                <a href="tienda/almuerzos" className={sonStyle}>
                     <div className="absolute w-full h-full bg-black bg-opacity-10 group-hover:bg-opacity-30"></div>
                     <div className="absolute bottom-0 w-full h-[50%] bg-gradient-to-t from-[#a1b5ff5e]"></div>
                     <img className={imageStyle} src={mainImageLink[3]}></img>
