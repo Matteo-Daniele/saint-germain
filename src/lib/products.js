@@ -262,7 +262,7 @@ const panCampagne = {
     ],
     price: 180,
     weight: null,
-    link: ['https://saintgermain.uy/cdn/shop/products/MG_2016_360x.jpg?v=1669570427', 'https://saintgermain.uy/cdn/shop/products/MG_2005_540x.jpg?v=1669570427', 'https://saintgermain.uy/cdn/shop/products/MG_2025_540x.jpg?v=1669570427'],
+    link: 'https://saintgermain.uy/cdn/shop/products/Campagne2_720x.jpg?v=1623961150',
 };
 const panIntegral = {
     name: 'PAN INTEGRAL',
