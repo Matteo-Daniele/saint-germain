@@ -63,7 +63,9 @@ export default function CollectionTienda({pageTitle, mainImage, products}){
                     {
                         showProducts.map((product, index) => (
                             <li key={product.name} className="flex flex-col text-center gap-1">
-                                <img className="w-full h-[80%] object-cover" src={product.link}></img>
+                                <a className="w-full h-[80%]" href={`/tienda/${pageTitle}/${product.name}`}>
+                                    <img className="w-full h-full object-contain" src={product.link}></img>
+                                </a>
                                 <div className="w-full h-[20%]">
                                     <h2 className="text-[#344a80] text-[14px]">{product.name.toUpperCase()}</h2>
                                     <p className="text-[#344a80] text-[12px] font-light">${product.price},00</p>
