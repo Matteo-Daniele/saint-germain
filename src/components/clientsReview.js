@@ -4,7 +4,7 @@ import { } from "next/font/google";
 export default function ClientsReview(){
     const link = "https://app.testimonialhub.com/resources/public/imgs//stars_5_yellow.png";
     const reviewStyle = classNames(
-        'w-[full] h-[260px] bg-white flex flex-row items-start justify-center gap-3 relative',
+        'w-[full] h-[260px] bg-white flex flex-row items-start justify-center gap-3 relative md:h-[220px]',
         'before:content-["“"] before:text-gray-400 before:text-[50px]',
         'after:content-[""] after:w-[0] after:h-[0]', 
         'after:border-r-[15px] after:border-r-solid after:border-r-transparent after:border-l-[15px] after:border-l-solid after:border-l-white after:border-b-[15px] after:border-b-solid after:border-b-transparent', 
@@ -14,7 +14,7 @@ export default function ClientsReview(){
         "flex flex-col min-h-[250px] gap-[35px]"
     )
     return(
-        <section className="w-[75%] flex flex-col gap-[80px] mt-[60px] mb-20 ">
+        <section className="w-[75%] flex flex-col gap-[80px] mt-[60px] mb-20 md:flex-row">
             <div className={fatherItems}>
                 <div className={reviewStyle}>
                     <p className='text-gray-500 w-[70%] text-[15px] tracking-widest mt-3'>

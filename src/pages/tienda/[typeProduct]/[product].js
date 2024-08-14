@@ -13,6 +13,6 @@ export default function ProductPage(){
     }
     
     return (
-       <ShowProducts name={productName} products={pageProducts}></ShowProducts>
+       <ShowProducts name={productName} products={pageProducts} pageTitle={router.query.typeProduct}></ShowProducts>
     )
 }

@@ -16,8 +16,8 @@ export default function RightThingsBar({isOpenRight, openRight}) {
             </div>
             <div className="h-[100%] text-[22px] flex flex-col justify-start items-center">
                 <div className="w-[80%] h-[60%] flex flex-col justify-around">
-                    <a href="./aboutUs">SOBRE NOSOTROS</a>
-                    <a href="./ourHistory">LOCALES</a>
+                    <a href="/aboutUs">SOBRE NOSOTROS</a>
+                    <a href="/ourHistory">LOCALES</a>
                     <a href="/tienda">TIENDA</a>
                     <a>AYUDA</a>
                     <a>CONTACTO</a>

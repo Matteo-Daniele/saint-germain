@@ -8,16 +8,16 @@ export default function ItemsToSell({verificating}){
     ]
     const textTypeProduct = ['VIENNOISERIES', 'PANES', 'PATISSERIE', 'ALMUERZOS']; 
     const imageStyle = [
-        "h-[150px] w-full object-cover"
+        "h-[150px] w-full object-cover md:h-full"
     ]
     const firstContainerStyle = classNames(
-        "flex flex-col items-center gap-0", {"gap-[20px]": verificating}
+        "flex flex-col items-center gap-0 md:h-[800px] md:justify-center", {"gap-[20px]": verificating}
     )
     const fatherStyle = classNames(
-        "flex flex-col w-[90%] h-[50%] items-center justify-center gap-0", {"gap-[20px]": verificating}
+        "flex flex-col w-[90%] h-[50%] items-center justify-center gap-0 md:w-[80%] md:flex-row md:h-[300px]", {"gap-[20px]": verificating}
     )
     const sonStyle = [
-        "relative w-full h-full group cursor-pointer transition-all duration-100"
+        "relative w-full h-full group cursor-pointer transition-all duration-2000"
     ]
     const textStyle = [
         "absolute bottom-0 left-0 text-[24px] font-bold ml-3 mb-3 group-hover:border-b-2 group-hover:border-solid group-hover:border-white"
