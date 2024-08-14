@@ -1,10 +1,5 @@
-import Footer from "@/components/footer";
-import Header from "@/components/header";
-import RightThingsBar from "@/components/rightThingsBar";
-import SearchBar from "@/components/searchBar";
-import ShoppingCarBar from "@/components/shoppingCarBar";
-import classNames from "classnames";
 import { useState } from "react";
+import Item from "./item";
 export default function CollectionTienda({pageTitle, mainImage, products}){
     const [searchOpen, setSearchOpen] = useState(false);
     const [sortBy, setSortBy] = useState('more-sold');
@@ -25,23 +20,14 @@ export default function CollectionTienda({pageTitle, mainImage, products}){
         console.log("Selected sort option:", event.target.value);
     }
 
-    const mainStyle = classNames(
-        "bg-[#e9eae4] overflow-x-hidden relative h-screen", {"overflow-hidden" : rightBarOpen || shoppingOpen}
-    )
     const textStyle = [
         "absolute bottom-0 left-0 text-[28px] font-solid ml-3 mb-3 tracking-[0.3em]"
     ]
     return(
-        <main className={mainStyle}>
-            <header>
-                <Header open={setSearchOpen} openRight={setRightBarOpen} openShopping={setShoppingOpen}></Header>
-                <SearchBar isOpen={searchOpen} open={setSearchOpen}></SearchBar>
-                <RightThingsBar isOpenRight={rightBarOpen} openRight={setRightBarOpen}></RightThingsBar>
-                <ShoppingCarBar isOpenShopping={shoppingOpen} openShopping={setShoppingOpen}></ShoppingCarBar>
-            </header>
-            <div className="relative">
+        <>
+            <div className="relative md:h-[40%] md:w-full">
                 <div className="absolute w-full h-full bg-black bg-opacity-20 group-hover:bg-opacity-30 tracking"></div>
-                <img className="h-[250px] w-full object-cover" src={mainImage}></img>
+                <img className="h-[250px] w-full object-cover md:h-full" src={mainImage}></img>
                 <h3 className={textStyle}>{pageTitle.toUpperCase()}</h3>
             </div>
             <section>
@@ -59,23 +45,10 @@ export default function CollectionTienda({pageTitle, mainImage, products}){
                         <p className="text-center">IMPORTANTE: LOS PEDIDOS SE PUEDEN REALIZAR CON UN MINIMO DE 48 HORAS DE ANTICIPACION.</p> 
                     </div>
                 </div>
-                <ul className="grid grid-flow-row grid-cols-2 gap-6 p-6">
-                    {
-                        showProducts.map((product, index) => (
-                            <li key={product.name} className="flex flex-col text-center gap-1">
-                                <a className="w-full h-[80%]" href={`/tienda/${pageTitle}/${product.name}`}>
-                                    <img className="w-full h-full object-contain" src={product.link}></img>
-                                </a>
-                                <div className="w-full h-[20%]">
-                                    <h2 className="text-[#344a80] text-[14px]">{product.name.toUpperCase()}</h2>
-                                    <p className="text-[#344a80] text-[12px] font-light">${product.price},00</p>
-                                </div>
-                            </li>
-                        ))
-                    }
-                </ul>
+                <div className="flex w-full justify-center items-center">
+                    <Item showProduct={showProducts} pageTitle={pageTitle} carousel={true}></Item>
+                </div>
             </section>
-            <Footer></Footer>
-        </main>
+        </>
     )
 }

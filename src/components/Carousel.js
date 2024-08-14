@@ -31,7 +31,7 @@ export default function Carousel({ children: slides, autoSlide = false, autoSlid
                         <div
                             key={i}
                             onClick={() => goToSlide(i)}
-                            className={`z-10 transition-all w-2 h-2 bg-white rounded-full cursor-pointer ${
+                            className={`z-10 transition-all w-2 h-2 bg-white rounded-full cursor-pointer md:w-3 md:h-3 ${
                                 curr === i ? "p-1" : "bg-opacity-50"
                             }`}
                         />
